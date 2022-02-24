@@ -1,0 +1,20 @@
+div.video{
+    
+    background-color: var(--cor0);
+    padding: 20px;
+    
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 57%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+configurações para deixar o video responsivo e centralizado,
+position relative na configuração de video, e position absolute no iframe, após isso configurar o padding botoom no div.video e no div.video iframe o top, left, width e height
